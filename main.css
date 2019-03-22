@@ -1,0 +1,153 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.m-0 {
+    margin: 0;
+}
+
+.p-0 {
+    padding: 0;
+}
+
+.logo {
+    width: 200px;
+    height: 4rem;
+}
+
+.nav-bg {
+    background: white;
+}
+
+.navbar-nav > li:hover {
+    background-color: coral;
+    border-radius: 5px;
+}
+
+.nav-item > a:hover {
+    color: white !important;
+}
+
+.navbar-nav .nav-link {
+    padding-left: 10px;
+}
+
+.slider-section {
+    margin-top: 82px;
+}
+
+.carousel-item > img {
+    height: 600px;
+    -webkit-animation: zoom 20s;
+    animation: zoom 20s;
+}
+
+@-webkit-keyframes zoom {
+    from {
+        -webkit-transform: scale(1, 1);
+    }
+
+    to {
+        -webkit-transform: scale(1.5, 1.5);
+    }
+}
+
+@keyframes zoom {
+    from {
+        transform: scale(1, 1);
+    }
+
+    to {
+        transform: scale(1.5, 1.5);
+    }
+}
+
+
+.lead {
+    line-height: 1.6;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+
+.text-coral {
+    color: coral;
+}
+
+.bg-coral {
+    background-color: coral;
+}
+
+/*
+.card p {
+    font-size: 1.1em;
+}
+*/
+
+.required {
+    color: red;
+}
+
+.triangle-in-footer:before {
+    content: "";
+    display: block;
+    position: absolute;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-top: 20px solid #FFF;
+    height: 20px;
+    width: 20px;
+    top: -5px;
+    left: 50%;
+    margin-left: -20px;
+}
+
+.subscribe {
+    position: absolute;
+    border-left: 1px solid #4a4848;
+    border-radius: 0 5px 5px 0;
+    right: 0;
+    top: 0;
+}
+
+.contactus p {
+    font-size: 12px;
+}
+
+.logo-footer {
+    width: 100px;
+    height: 2rem;
+}
+
+footer p {
+    line-height: 1.8678iiiiiiii;
+}
+
+
+
+.social-container a {
+    width: 40px;
+    height: 40px;
+    display: block;
+    padding-left: 2px;
+    text-align: center;
+    color: #666;
+    background: #fafafa;
+    line-height: 24px;
+    font-size: 24px;
+    position: relative;
+    top: 2px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.fab {
+    position: absolute;
+    top: 20%;
+    left: 10px;
+}
+
+.social-container a:hover {
+    background-color: coral;
+    color: white;
+}
